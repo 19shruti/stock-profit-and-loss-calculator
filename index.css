@@ -1,0 +1,108 @@
+body{
+    
+    background-image: url(https://wallpapercave.com/wp/wp2128229.jpg);
+}
+
+
+.form{
+/* everything under form will come in centre  */
+    margin: auto;
+    text-align: center;
+    background-color: var(--primary-color);   
+    border-radius: 0.3rem;
+    padding: 10rem 1rem;
+    box-shadow: 0px 0px 5px 0px var(--off-white);
+    
+}
+
+/* in input name after then input box  */
+label{
+    display: block;
+    margin-bottom: 0.5;
+    font-weight: bold;
+    padding: 0.5rem;
+    font-weight: bolder;
+   
+}
+
+input{
+/* styling input box to circle  */
+    width: 45%;
+    padding: 0.5rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+   
+    
+    
+}
+#output{
+    margin-top: 1rem;
+    text-size-adjust: 30%;
+    font-size: 150%;
+    font-weight: bolder;
+    font-style: italic;
+color:azure;
+background-color: rgb(152, 131, 179);
+}
+
+#outputGIF{
+    /* styleing the gif output */
+    width: 400px;
+    padding: 1rem;
+    display: block;
+    margin: auto;  
+    height: 30vh;
+    background-repeat: no-repeat;
+    display: none;
+    
+}
+.button{
+    
+    max-width: 90%;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+.button:hover{
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+
+}
+.top {
+    position:fixed;
+   left:0;
+   top: 0;
+    width:100%;
+    height: 70px;
+    background-color: #D0DAEE;
+}
+.footer {
+    /* margin-bottom: 10%; */
+    position:fixed;
+ bottom:0;
+ left:0;
+ width:100%;
+ height: 70px;
+ background-color: #D0DAEE;
+ padding-top: 20px;
+}
+.legacyText{
+   font-size: 0.90rem;
+   padding-bottom: 124rem;
+   float: right;
+   margin-right:1.10rem;
+
+}
+.list-group-item{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
