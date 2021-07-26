@@ -24,7 +24,7 @@ function profitloss(event){
             {
                 var loss=(purchasePrice-pricecurrently)*quantityNo;
                 var percentloss=(((purchasePrice-pricecurrently)*100)/pricecurrently).toFixed(2);
-                if(loss>50)
+                if(percentloss>=50)
                 {
                    
                     document.body.style.backgroundImage = "url('https://wallpapercave.com/wp/wp1865069.gif')";
